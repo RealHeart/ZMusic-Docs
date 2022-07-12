@@ -9,12 +9,22 @@ module.exports = {
             ]
         },
         {
-            title: '命令',
+            title: '使用指南',
             collapsable: false,
             children: [
-                'command/',
+                'usage/commands',
+                'usage/permissions',
+                'usage/config',
             ]
         },
+        {
+            title: '进阶',
+            collapsable: false,
+            children: [
+                'advance/contributing',
+                'advance/platform-extension',
+            ]
+        }
     ],
     '/en/': [
         {
@@ -22,20 +32,7 @@ module.exports = {
             collapsable: false,
             children: [
                 'getting-started',
-            ]
-        },
-        {
-            title: 'FAQ',
-            collapsable: false,
-            children: [
                 'faq',
-            ]
-        },
-        {
-            title: 'Commands',
-            collapsable: false,
-            children: [
-                'command/',
             ]
         },
     ]
