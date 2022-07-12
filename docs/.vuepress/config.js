@@ -1,4 +1,6 @@
 const moment = require('moment')
+const themeConfig = require('./config/theme')
+
 module.exports = {
   port: 6480,
   head: [
@@ -16,41 +18,7 @@ module.exports = {
     }
   },
   theme: 'reco',
-  themeConfig: {
-    noFoundPageByTencent: false,
-    docsRepo: 'RealHeart/ZMusic',
-    docsDir: 'docs',
-    editLinks: true,
-    record: '辽ICP备19016520号',
-    catalogUrl: '/contents',
-    recordLink: 'http://beian.miit.gov.cn/',
-    startYear: '2021',
-    subSidebar: 'auto',
-    locales: {
-      '/': {
-        label: '简体中文',
-        selectText: '选择语言',
-        ariaLabel: '选择语言',
-        editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
-        nav: [
-          { text: '首页', link: '/', icon: 'reco-home' },
-          { text: 'Github', link: 'https://github.com/Genshin-Wiki/Genshin-Wiki', icon: 'reco-github' },
-        ]
-      },
-      '/en/': {
-        label: 'English',
-        selectText: 'Languages',
-        ariaLabel: 'Select language',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
-        nav: [
-          { text: 'Home', link: '/', icon: 'reco-home' },
-          { text: 'Github', link: 'https://github.com/Genshin-Wiki/Genshin-Wiki', icon: 'reco-github' },
-        ]
-      }
-    }
-  },
+  themeConfig,
   plugins: [
     [
       '@vuepress/last-updated',
@@ -61,14 +29,21 @@ module.exports = {
       }
     ],
     [
-      '@vuepress/google-analytics',
+      '@vuepress/pwa',
       {
         serviceWorker: true,
         updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新"
+          '/': {
+            message: "发现新内容可用",
+            buttonText: "刷新"
+          },
+          '/en/': {
+            message: "New content is available",
+            buttonText: "Refresh"
+          }
         }
       }
-    ]
+    ],
+    'flexsearch-pro',
   ]
 }
