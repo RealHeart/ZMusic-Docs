@@ -9,7 +9,6 @@ module.exports = {
     recordLink: 'http://beian.miit.gov.cn/',
     startYear: '2021',
     sidebar: sidebar,
-    subSidebar: 'auto',
     search: true,
     locales: {
         '/': {
