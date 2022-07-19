@@ -18,7 +18,7 @@ title: 网易云音乐API
 |                       地址                       | 位置  |            提供者             |                                   捐赠                                   |
 | :----------------------------------------------: | :---: | :---------------------------: | :----------------------------------------------------------------------: |
 | [https://wyy.whksoft.cn](https://wyy.whksoft.cn) | 上海  | [舞晗坤](https://whksoft.cn/) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
-
+| [https://netease.yb2.site/](https://netease.yb2.site/) | 美国  | [御坂网络](https://netease.yb2.site/) | [赞助二维码](https://s2.loli.net/2022/07/19/kQ1S8Gwoqjlfhn3.jpg) |
 
 ## 部署
 
