@@ -18,11 +18,18 @@ module.exports = {
             ]
         },
         {
+            title: '自建API',
+            collapsable: false,
+            children: [
+                'deploy-api/netease-api',
+            ]
+        },
+        {
             title: '进阶',
             collapsable: false,
             children: [
                 'advance/contributing',
-                'advance/platform-extension',
+                'advance/platform-extension'
             ]
         }
     ],
