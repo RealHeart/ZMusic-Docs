@@ -15,11 +15,11 @@ title: 网易云音乐API
 **推荐您根据[以下说明](#部署)自行部署使用。**
 :::
 
-|                         地址                          | 位置  |               提供者               |                                   捐赠                                   |
-| :---------------------------------------------------: | :---: | :--------------------------------: | :----------------------------------------------------------------------: |
-|   [https://wyy.whksoft.cn](https://wyy.whksoft.cn)    | 上海  |   [舞晗坤](https://whksoft.cn/)    | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
-| [https://netease.yb2.site](https://netease.yb2.site/) | 美国  | [御坂网络](https://b23.tv/TGUdCED) |     [赞助二维码](https://s2.loli.net/2022/07/19/kQ1S8Gwoqjlfhn3.jpg)     |
-| [https://wyyhk.whksoft.cn](https://wyyhk.whksoft.cn)  | 香港  |   [舞晗坤](https://whksoft.cn/)    | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
+|                         地址                          | 位置  |                   提供者                   |                                   捐赠                                   |
+| :---------------------------------------------------: | :---: | :----------------------------------------: | :----------------------------------------------------------------------: |
+|   [https://wyy.whksoft.cn](https://wyy.whksoft.cn)    | 上海  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
+| [https://netease.yb2.site](https://netease.yb2.site/) | 美国  |     [御坂网络](https://b23.tv/TGUdCED)     |     [赞助二维码](https://s2.loli.net/2022/07/19/kQ1S8Gwoqjlfhn3.jpg)     |
+| [https://wyyhk.whksoft.cn](https://wyyhk.whksoft.cn)  | 香港  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
 
 ## 部署
 
