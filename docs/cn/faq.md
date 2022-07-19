@@ -91,8 +91,8 @@ title: 常见问题
 
 <font size="25">不卡服！</font>如果出现卡服问题，一般是服务器内其他插件导致的卡服，并且某位用户点歌的时候正好碰到了卡服的时刻。（不服？不服就贴出timings报告！）  
 碎碎念：听说点大悲咒会崩服（bushi  
-![](images/dabeizhou_1.png)  
-![](images/dabeizhou_2.png)  
+![](./images/dabeizhou_1.png)  
+![](./images/dabeizhou_2.png)  
 如果您在点歌的时候确信发生了上述崩服的情况，请让腐竹将崩服之前爆出的红色Stacktrace发给我们，我们会尽快解决。    
 为了您的人身安全，我们建议有群组服的将 ZMusic 丢进群组服插件文件夹内。
 
@@ -119,6 +119,6 @@ title: 常见问题
 
 ## ~~彩蛋环节：死亡不掉落用什么插件？~~
 
-~~![](images/keepInventory.png)~~  
+~~![](./images/keepInventory.png)~~  
 ~~你需要安装下北泽式死亡不掉落插件，首先排除可以使用`/gamerule`改死亡不掉落，这怎么可能是原版的指令呢，对吧！再说了，百度是什么咱也完全不知道！~~
 
