@@ -1,5 +1,5 @@
 module.exports = {
-    '/cn/': [
+    '/zh-cn/': [
         {
             title: '快速上手',
             collapsable: false,
@@ -33,7 +33,7 @@ module.exports = {
             ]
         }
     ],
-    '/en/': [
+    '/en-us/': [
         {
             title: 'Getting Started',
             collapsable: false,

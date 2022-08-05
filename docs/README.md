@@ -4,7 +4,7 @@ home: true
 heroText: ZMusic 官方文档
 tagline: 全功能Minecraft点歌插件
 actionText: 快速开始 →
-actionLink: /cn/getting-started
+actionLink: /zh-cn/getting-started
 features:
 - title: 跨平台
   details: 支持 Bukkit, Bungeecord, Velocity

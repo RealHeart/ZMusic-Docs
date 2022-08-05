@@ -26,7 +26,7 @@ module.exports = {
                 { text: 'MCBBS', link: 'https://www.mcbbs.net/thread-967007-1-1.html' },
             ]
         },
-        '/en/': {
+        '/en-us/': {
             label: 'English',
             selectText: 'Languages',
             ariaLabel: 'Select language',

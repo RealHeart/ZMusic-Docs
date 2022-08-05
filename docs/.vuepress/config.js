@@ -12,7 +12,7 @@ module.exports = {
       title: 'ZMusic 官方文档',
       lang: 'zh-CN'
     },
-    '/en/': {
+    '/en-us/': {
       title: 'ZMusic Official Documentation',
       lang: 'en-US'
     }
@@ -37,7 +37,7 @@ module.exports = {
             message: "发现新内容可用",
             buttonText: "刷新"
           },
-          '/en/': {
+          '/en-us/': {
             message: "New content is available",
             buttonText: "Refresh"
           }
