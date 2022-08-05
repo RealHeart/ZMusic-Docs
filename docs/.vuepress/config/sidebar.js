@@ -6,7 +6,7 @@ module.exports = {
             children: [
                 'getting-started',
                 'faq',
-                'faq-v3',
+                'faq-v2',
             ]
         },
         {
