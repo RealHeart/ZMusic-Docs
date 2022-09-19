@@ -15,10 +15,13 @@ title: 网易云音乐API
 **推荐您根据[以下说明](#部署)自行部署使用。**
 :::
 
+如果遇到自建 API 无法登录的问题，请确保您遵循了下方的部署指南。并且将登陆方式改为邮箱登录。
+
 |                         地址                          | 位置  |                   提供者                   |                                   捐赠                                   |
 | :---------------------------------------------------: | :---: | :----------------------------------------: | :----------------------------------------------------------------------: |
 |   [https://wyy.whksoft.cn](https://wyy.whksoft.cn)    | 上海  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
 | [https://wyyhk.whksoft.cn](https://wyyhk.whksoft.cn)  | 香港  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
+|   [https://music.mcseekeri.top](https://music.mcseekeri.top/) | 美国 | [MCSeekeri](https://github.com/SleepyAsh0191)
 
 ## 部署
 
@@ -31,7 +34,10 @@ title: 网易云音乐API
 
 ```shell
 git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
+git reset ae032b72a447d79907ad574bd96cf2c8ce58238e
+git checkout .
 ```
+目前 ZMusic 不适用于最新的 NeteaseCloudMusicAPI，详情请参考[#13](https://github.com/RealHeart/ZMusic/issues/13)
 
 2. 安装依赖
 
