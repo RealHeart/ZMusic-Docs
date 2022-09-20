@@ -16,5 +16,6 @@
   "description": "ZMusic Official Documentation",
   "dependencies": {
     "moment": "^2.29.1"
-  }
+  },
+  "packageManager": "pnpm@7.12.1"
 }
