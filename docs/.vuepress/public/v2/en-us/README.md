@@ -11,11 +11,11 @@ This is a powerful music system that supports the following functions.
 * Play alone
 * Lyrics display
 * Lyrics translation display
-* Multiple search sources (QQ/Netease Cloud/Kugou/Kuowo/Bilibili)
+* Multiple search sources (Netease Cloud/Kuwo/Bilibili)
 * Keyword search
 * Personal playlist
 * Full server playlist
-* Playlist play (QQ Music/NetEase Cloud)
+* Playlist play (NetEase Cloud)
 * Volume adjustment (1.12 and above support)
 * Support BungeeCord
 
@@ -59,7 +59,7 @@ Search for a music by song name and play it directly
 [Search source description](#Search source description)
 
 ### Example
-`/zm play qq your cat`
+`/zm play netease your cat`
 
 ## Song
 
@@ -72,7 +72,7 @@ Search for a piece of music by song name, after sending it to the whole server, 
 [Search source description](#Search source description) [Song name ID description](#歌名ID化说明)
 
 ### Example
-`/zm music qq your cat`
+`/zm music netease your cat`
 
 ## search for
 
@@ -85,7 +85,7 @@ Search for a music by song name, return a list of ten music
 [Search source description](#Search source description) [Song name ID description](#歌名ID化说明)
 
 ### Example
-`/zm search qq your cat`
+`/zm search netease your cat`
 
 ## song list
 
@@ -96,7 +96,7 @@ By importing the playlist and storing it on the server, it is convenient to play
 `/zm playlist [platform] [subcommand]`
 
 Currently supports the following platforms
-* qq-QQ Music
+
 * netease/163-Netease Cloud Music
 
 If the platform is type, set the playlist play mode.
@@ -112,7 +112,7 @@ If the platform is global, it is the global playlist mode.
 * The subcommand is the same as the normal mode
 
 Example:
-`/zm playlist global qq list`
+`/zm playlist global netease list`
 
 `Subcommand` corresponds to the subcommand of the platform
 
@@ -126,11 +126,10 @@ Example:
 
 ### Example
 Import:
-* `/zm playlist qq import https://y.qq.com/n/yqq/playlist/1937967578.html`
 * `/zm playlist 163 import https://music.163.com/#/playlist?id=363046232`
 
 Play:
-* `/zm playlist qq play 1937967578`
+* `/zm playlist netease play 1937967578`
 * `/zm playlist 163 play 363046232`
 
 ## Administrator
@@ -145,7 +144,7 @@ Administrator-related operations, full server mandatory playback, reload configu
 
 ### Example
 
-`/zm playAll qq your cat`
+`/zm playAll netease your cat`
 
 # Permission
 
@@ -177,12 +176,6 @@ Administrator-related operations, full server mandatory playback, reload configu
     /// Self-deployment is recommended, Node.js environment is required
     /// Address: https://github.com/Binaryify/NeteaseCloudMusicApi
     "netease": "https://netease.api.zhenxin.xyz/",
-    /// QQ Music API address
-    ///
-    /// Use the open source project QQMusicApi
-    /// Self-deployment is recommended, Node.js environment is required
-    /// Address: https://github.com/jsososo/QQMusicApi
-    "qq": "https://qqmusic.api.zhenxin.xyz/"
   },
   /// Account Settings
   "account": {
@@ -297,15 +290,14 @@ Administrator-related operations, full server mandatory playback, reload configu
 # Search source description
 `Search Source` is the platform you want to search for music
 Currently supports the following platforms
-* qq-QQ Music
+
 * netease/163-Netease Cloud Music
-* kugou-cool dog music
 * kuwo-Kuwo Music
 * bilibili-Bilibili music
 
 # Song name ID description
 Replace the song name with `-id:music ID`
-Currently supports QQ Netease Cloud Bilibili Music
+Currently supports Netease Cloud Bilibili Music
 Example: `/zm play bilibili -id:374305`
 
 
