@@ -10,6 +10,6 @@ ZMusic 官方文档
 ```shell
   git clone https://github.com/RealHeart/ZMusic-Docs
   cd ZMusic-Docs
-  pnpm i # 安装依赖
-  pnpm dev # 运行开发服务器
+  yarn # 安装依赖
+  yarn dev # 运行开发服务器
 ```
