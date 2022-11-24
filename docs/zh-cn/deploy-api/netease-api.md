@@ -20,8 +20,14 @@ title: 网易云音乐API
 |                         地址                          | 位置  |                   提供者                   |                                   捐赠                                   |
 | :---------------------------------------------------: | :---: | :----------------------------------------: | :----------------------------------------------------------------------: |
 |   [https://wyy.whksoft.cn](https://wyy.whksoft.cn)    | 上海  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
-| [https://wyyhk.whksoft.cn](https://wyyhk.whksoft.cn)  | 香港  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
+| [https://wyygz.whksoft.cn](https://wyygz.whksoft.cn)  | 广州  | [舞晗坤](https://github.com/SleepyAsh0191) | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
 |   [https://music.mcseekeri.top](https://music.mcseekeri.top/) | 美国 | [MCSeekeri](https://github.com/SleepyAsh0191)
+|   [http://zm.hk1.kujiyun.com](http://zm.hk1.kujiyun.com/) | 香港 | [酷极云](https://kujiyun.com)
+|   [http://zm.sq1.kujiyun.com](http://zm.sq1.kujiyun.com/) | 宿迁 | [酷极云](https://kujiyun.com)
+|   [http://zm.bj1.kujiyun.com](http://zm.bj1.kujiyun.com/) | 北京 | [酷极云](https://kujiyun.com)
+|   [http://zm.qd1.kujiyun.com](http://zm.qd1.kujiyun.com/) | 青岛 | [酷极云](https://kujiyun.com)
+
+
 
 ## 部署
 
