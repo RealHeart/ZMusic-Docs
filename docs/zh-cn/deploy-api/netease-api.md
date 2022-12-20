@@ -26,8 +26,7 @@ title: 网易云音乐API
 |   [http://zm.sq1.kujiyun.com](http://zm.sq1.kujiyun.com/) | 宿迁 | [酷极云](https://kujiyun.com)
 |   [http://zm.bj1.kujiyun.com](http://zm.bj1.kujiyun.com/) | 北京 | [酷极云](https://kujiyun.com)
 |   [http://zm.qd1.kujiyun.com](http://zm.qd1.kujiyun.com/) | 青岛 | [酷极云](https://kujiyun.com)
-
-
+|   [https://zmusic.i9mr.com](https://zmusic.i9mr.com/) | 宿迁 | [墨染云](https://i9mr.com)
 
 ## 部署
 
