@@ -40,10 +40,7 @@ title: 网易云音乐API
 
 ```shell
 git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
-git reset ae032b72a447d79907ad574bd96cf2c8ce58238e
-git checkout .
 ```
-目前 ZMusic 不适用于最新的 NeteaseCloudMusicAPI，详情请参考[#13](https://github.com/RealHeart/ZMusic/issues/13)
 
 2. 安装依赖
 
