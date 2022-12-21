@@ -6138,7 +6138,7 @@ mkdirp@~1.0.4:
   resolved "https://registry.npmmirror.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-moment@^2.29.1:
+moment@^2.29.4:
   version "2.29.4"
   resolved "https://registry.npmmirror.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
@@ -8531,10 +8531,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmmirror.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^4.3.5:
-  version "4.9.3"
-  resolved "https://registry.npmmirror.com/typescript/-/typescript-4.9.3.tgz#3aea307c1746b8c384435d8ac36b8a2e580d85db"
-  integrity sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==
+typescript@^4.8.3:
+  version "4.9.4"
+  resolved "https://registry.npmmirror.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
+  integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
@@ -9026,7 +9026,7 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-reco@^1.6.6:
+vuepress-theme-reco@^1.6.14:
   version "1.6.16"
   resolved "https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-1.6.16.tgz#b9e9e6c326761b955e016732fe87407a80dffd6f"
   integrity sha512-jWxNLrSLZ1QKqhf0zcrlxrg04Hshg4PJZd9Q0IOQFDkE7mGyOTWKg90TCkxPL8VDmJ8ns8j3FUZzr4oqAd2+iQ==
@@ -9042,7 +9042,7 @@ vuepress-theme-reco@^1.6.6:
     vue-click-outside "1.1.0"
     vuepress-plugin-smooth-scroll "^0.0.9"
 
-vuepress@^1.8.2:
+vuepress@^1.9.7:
   version "1.9.7"
   resolved "https://registry.npmmirror.com/vuepress/-/vuepress-1.9.7.tgz#2cd6709a2228f5cef588115aaeabf820ab9ed7cc"
   integrity sha512-aSXpoJBGhgjaWUsT1Zs/ZO8JdDWWsxZRlVme/E7QYpn+ZB9iunSgPMozJQNFaHzcRq4kPx5A4k9UhzLRcvtdMg==
