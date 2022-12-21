@@ -35,7 +35,8 @@ title: 网易云音乐API
 ```shell
 git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
 ```
-1. 安装依赖
+
+2. 安装依赖
 
 ```shell
 npm install
