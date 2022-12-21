@@ -8,14 +8,14 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "typescript": "^4.3.5",
-    "vuepress": "^1.8.2",
+    "typescript": "^4.8.3",
+    "vuepress": "^1.9.7",
     "vuepress-plugin-typescript": "^0.3.1",
-    "vuepress-theme-reco": "^1.6.6"
+    "vuepress-theme-reco": "^1.6.14"
   },
   "description": "ZMusic Official Documentation",
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.4"
   },
   "packageManager": "yarn@1.22.19"
 }
