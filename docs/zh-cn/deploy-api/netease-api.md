@@ -22,6 +22,7 @@ title: 网易云音乐API
 |      [https://wyy.whksoft.cn](https://wyy.whksoft.cn)       | 上海  |  [舞晗坤](https://github.com/SleepyAsh0191)   | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
 | [https://music.mcseekeri.top](https://music.mcseekeri.top/) | 美国  | [MCSeekeri](https://github.com/MCSeekeri) |
 |     [https://zmusic.i9mr.com](https://zmusic.i9mr.com/)     | 宿迁  |          [墨染云](https://i9mr.com)           |
+| [https://api.163.rtast.cn](https://api.163.rtast.cn)        | 美国  | [RTAkland](https://github.com/RTAkland)       | 
 
 ## 部署
 
