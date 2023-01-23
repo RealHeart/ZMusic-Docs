@@ -4,3 +4,5 @@ node_modules
 *.iml
 yarn-error*
 dist
+.temp
+.cache
