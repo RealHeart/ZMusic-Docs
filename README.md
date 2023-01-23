@@ -26,8 +26,8 @@ pnpm dev # 启动开发服务器
 本项目使用 [GPL-3.0](LICENSE) 协议开放源代码
 
 ```text
-Genshin Wiki Web
-Copyright (C) 2023 Genshin Wiki Team
+ZMusic Docs
+Copyright (C) 2023 RealHeart
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
