@@ -45,10 +45,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * [VuePress](https://github.com/vuepress/vuepress-next)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-[banner]: https://socialify.git.ci/RealHeart/ZMusic-Docs/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light
+## 贡献者
+
+[![][contrib]](https://github.com/RealHeart/ZMusic-Docs/graphs/contributors)
+
+[banner]: https://socialify.git.ci/RealHeart/ZMusic-Docs/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto
 
 [node]: https://img.shields.io/badge/node-18-blue?style=for-the-badge
 
 [pnpm]: https://img.shields.io/badge/pnpm-7-blue?style=for-the-badge
 
-[license]: https://img.shields.io/github/license/RealHeart/ZMusic?style=for-the-badge
+[license]: https://img.shields.io/github/license/RealHeart/ZMusic-Docs?style=for-the-badge
+
+[contrib]: https://contrib.rocks/image?repo=RealHeart/ZMusic-Docs
