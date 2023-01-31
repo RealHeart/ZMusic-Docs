@@ -4,10 +4,6 @@ import { sidebarEnUs, sidebarZhCn } from "./sidebar";
 
 
 export default hopeTheme({
-  author: {
-    name: "真心",
-    url: "https://www.zhenxin.xyz",
-  },
   iconAssets: "iconfont",
   repo: "RealHeart/ZMusic",
   docsRepo: "RealHeart/ZMusic-Docs",

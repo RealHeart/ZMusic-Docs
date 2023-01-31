@@ -33,14 +33,35 @@ const sidebarZhCn = sidebar({
   ]
 })
 
-const sidebarEnUs = sidebar([
-  {
-    text: 'Getting Started',
-    children: [
-      'en-us/getting-started',
-      'en-us/faq',
-    ]
-  }
-])
+const sidebarEnUs = sidebar({
+  '/en-us/': [
+    {
+      text: 'Getting Started',
+      children: [
+        'getting-started'
+      ]
+    },
+    {
+      text: 'Usage Guild',
+      children: [
+        'usage/commands',
+        'usage/permissions',
+        'usage/config',
+      ]
+    },
+    {
+      text: 'Deploy API',
+      children: [
+        'deploy-api/netease-api',
+      ]
+    },
+    {
+      text: 'Advanced',
+      children: [
+        'advance/contributing'
+      ]
+    }
+  ]
+})
 
 export { sidebarZhCn, sidebarEnUs }

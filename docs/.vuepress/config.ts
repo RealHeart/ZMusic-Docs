@@ -9,11 +9,11 @@ export default defineUserConfig({
   ],
   locales: {
     '/': {
-      title: 'ZMusic 官方文档',
+      title: 'ZMusic 使用文档',
       lang: 'zh-CN'
     },
     '/en-us/': {
-      title: 'ZMusic Official Documentation',
+      title: 'ZMusic Docs',
       lang: 'en-US'
     }
   },

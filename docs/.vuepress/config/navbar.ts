@@ -10,7 +10,7 @@ const navbarZhCn = navbar([
 ])
 
 const navbarEnUs = navbar([
-  { text: 'Home', link: '/' },
+  { text: 'Home', link: '/en-us/' },
   { text: 'Discord', link: 'https://discord.gg/twQgJNufYn' },
   { text: 'Github', link: 'https://github.com/RealHeart/ZMusic' },
   { text: 'SpigotMC', link: 'https://www.spigotmc.org/resources/83027/' },
