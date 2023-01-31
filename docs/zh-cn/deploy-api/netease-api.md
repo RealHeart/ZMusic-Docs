@@ -12,17 +12,37 @@ title: 网易云音乐API
 
 **因使用公共服务器所导致的盗号等问题，概不负责。**
 
-**推荐您根据[以下说明](#部署)自行部署使用。**
+**推荐您根据[**以下说明**](#部署)自行部署使用。**
 :::
 
 如果遇到自建 API 无法登录的问题，请确保您遵循了下方的部署指南。并且将登陆方式改为邮箱登录。
 
-|                            地址                             | 位置  |                    提供者                     |                                   捐赠                                   |
-| :---------------------------------------------------------: | :---: | :-------------------------------------------: | :----------------------------------------------------------------------: |
-|      [https://wyy.whksoft.cn](https://wyy.whksoft.cn)       | 上海  |  [舞晗坤](https://github.com/SleepyAsh0191)   | [赞助二维码](https://img.kookapp.cn/assets/2022-07/rjsOa6Tqky0ks0ks.jpg) |
-| [https://music.mcseekeri.top](https://music.mcseekeri.top/) | 美国  | [MCSeekeri](https://github.com/MCSeekeri) |
-|     [https://zmusic.i9mr.com](https://zmusic.i9mr.com/)     | 宿迁  |          [墨染云](https://i9mr.com)           |
-| [https://api.163.rtast.cn](https://api.163.rtast.cn)        | 美国  | [RTAkland](https://github.com/RTAkland)       | 
+|           API地址           | 位置  |                  提供者                   |                                 赞助                                 |
+| :-------------------------: | :---: | :---------------------------------------: | :------------------------------------------------------------------: |
+|     https://zm.armoe.cn     | 上海  |   [真心](https://github.com/RealHeart)    | [二维码](https://img.kookapp.cn/assets/2023-01/zAJ6qryFwc2i01ao.png) |
+|   https://zmusic.i9mr.com   | 宿迁  |        [墨染云](https://i9mr.com)         |                                                                      |
+| https://music.mcseekeri.top | 美国  | [MCSeekeri](https://github.com/MCSeekeri) |                                                                      |
+|  https://api.163.rtast.cn   | 美国  |  [RTAkland](https://github.com/RTAkland)  |                                                                      |
+
+
+替换位置
+
+```yaml {9}
+# API设置
+#
+# 使用开源API项目 推荐自行搭建
+# 网易云: https://github.com/Binaryify/NeteaseCloudMusicApi
+api:
+  # 网易云音乐
+  netease:
+    # API链接
+    link: '<API地址>'
+    # 账号
+    account: ''
+    # 密码
+    password: ''
+```
+
 
 ## 部署
 
