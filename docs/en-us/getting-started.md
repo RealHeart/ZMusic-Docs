@@ -30,7 +30,7 @@ This is a powerful music system that supports the following functions.
 ## Download Mod
 
 * For 1.8-1.11 clients, please install [AudioBuffer](https://www.mcbbs.net/thread-832205-1-1.html) Mod
-* For 1.7.10 and 1.12.2-1.19 clients, please install [AllMusic](https://www.aliyundrive.com/s/fKHnLh1N5nC/folder/628f5a18e108ef84cb934b6ca4301be905f1a653) Mod
+* For 1.12.2-1.19 clients, please install [ZMusic](https://github.com/RealHeart/ZMusic-Mod/releases) Mod
 
 ## Install Mod
 

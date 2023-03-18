@@ -21,8 +21,9 @@ This is a powerful music system that supports the following functions.
 
 ## Client Mod Description
 This plug-in requires the client to install the supporting Mod to play normally
-* For clients from 1.7.10-1.11, please install [ʻAudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) Mod
-* For 1.12.2-1.16.4 clients, please install [ʻAllMusic`](https://www.aliyundrive.com/s/fKHnLh1N5nC/folder/628f5a18e108ef84cb934b6ca4301be905f1a653) Mod
+
+* For 1.8-1.11 clients, please install [AudioBuffer](https://www.mcbbs.net/thread-832205-1-1.html) Mod
+* For 1.12.2-1.19 clients, please install [ZMusic](https://github.com/RealHeart/ZMusic-Mod/releases) Mod
 
 ## BungeeCord description
 * BungeeCord currently only supports 1.9-1.16 server

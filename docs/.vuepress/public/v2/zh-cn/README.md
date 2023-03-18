@@ -32,9 +32,7 @@
 本插件需要客户端安装配套Mod才能正常播放
 
 * 对于1.8-1.11的客户端 请安装[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) Mod
-* 对于1.7.10, 1.12.2-1.19的客户端 请安装[`AllMusic`](https://www.aliyundrive.com/s/fKHnLh1N5nC/folder/628f5a18e108ef84cb934b6ca4301be905f1a653) Mod 
-  ，但是需要注意的是：请下载有版本号前缀的文件。  
-* 当然，我们也同样开发了属于我们自己的 Mod，只不过现在还在测试！绝赞开源中！可以前往内测群中下载编译好的版本！
+* 对于1.12.2-1.19的客户端 请安装[`AllMusic`](https://github.com/RealHeart/ZMusic-Mod/releases) Mod
 
 ## BungeeCord说明
 
