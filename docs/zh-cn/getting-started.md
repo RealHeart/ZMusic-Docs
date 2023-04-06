@@ -18,7 +18,7 @@ title: 快速开始
 
 ## 下载
 
-* [SpogotMC](https://www.spigotmc.org/resources/zmusic.83027/)
+* [SpigotMC](https://www.spigotmc.org/resources/zmusic.83027/)
 * [Gitee 发行版](https://gitee.com/RealHeart/ZMusic/releases)
 * [QQ交流群](https://jq.qq.com/?_wv=1027&k=5oIs7cc)
 * [Github Releases](https://github.com/RealHeart/ZMusic/releases)

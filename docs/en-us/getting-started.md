@@ -18,7 +18,7 @@ This is a powerful music system that supports the following functions.
 
 ## Download
 
-* [SpogotMC](https://www.spigotmc.org/resources/zmusic.83027/)
+* [SpigotMC](https://www.spigotmc.org/resources/zmusic.83027/)
 * [Github Releases](https://github.com/RealHeart/ZMusic/releases)
 * [Github Actions](https://github.com/RealHeart/ZMusic/actions)
 
