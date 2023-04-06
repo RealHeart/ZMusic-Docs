@@ -2,8 +2,8 @@
 title: 网易云音乐API
 ---
 
-* [项目地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
-* [使用文档](https://neteasecloudmusicapi.vercel.app/#/?id=%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3)
+- [项目地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
+- [使用文档](https://neteasecloudmusicapi.vercel.app/#/?id=%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3)
 
 ## 公共服务器
 
@@ -17,13 +17,7 @@ title: 网易云音乐API
 
 如果遇到自建 API 无法登录的问题，请确保您遵循了下方的部署指南。并且将登陆方式改为邮箱登录。
 
-|           API地址           | 位置  |                  提供者                   |                                 赞助                                 |
-| :-------------------------: | :---: | :---------------------------------------: | :------------------------------------------------------------------: |
-|     https://zm.armoe.cn     | 上海  |   [真心](https://github.com/RealHeart)    | [二维码](https://img.kookapp.cn/assets/2023-01/zAJ6qryFwc2i01ao.png) |
-|   https://zmusic.i9mr.com   | 宿迁  |        [墨染云](https://i9mr.com)         |                                                                      |
-| https://music.mcseekeri.top | 美国  | [MCSeekeri](https://github.com/MCSeekeri) |                                                                      |
-|  https://api.163.rtast.cn   | 美国  |  [RTAkland](https://github.com/RTAkland)  |                                                                      |
-
+<netease-api />
 
 替换位置
 
@@ -43,13 +37,12 @@ api:
     password: ''
 ```
 
-
 ## 部署
 
 部署前确保已安装如下环境
 
-* [Git](https://git-scm.com/download)
-* [Node.js](https://nodejs.org/zh-cn/)
+- [Git](https://git-scm.com/download)
+- [Node.js](https://nodejs.org/zh-cn/)
 
 1. 克隆代码
 

@@ -2,8 +2,8 @@
 title: NeteaseCloudMusic API
 ---
 
-* [Project Github](https://github.com/Binaryify/NeteaseCloudMusicApi)
-* [Usage Docment](https://neteasecloudmusicapi.vercel.app/#/?id=%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3)
+- [Project Github](https://github.com/Binaryify/NeteaseCloudMusicApi)
+- [Usage Docment](https://neteasecloudmusicapi.vercel.app/#/?id=%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3)
 
 ## Public server
 
@@ -17,13 +17,7 @@ title: NeteaseCloudMusic API
 
 If you encounter the problem that the self-built API cannot log in, please ensure that you follow the deployment guide below. And change the login method to email login.
 
-|         API address         | Location |                 Provider                  |                Sponsor                |
-| :-------------------------: | :------: | :---------------------------------------: | :-----------------------------------: |
-|     https://zm.armoe.cn     |  China   |   [真心](https://github.com/RealHeart)    | [PayPal](https://paypal.me/QGZhenXin) |
-|   https://zmusic.i9mr.com   |  China   |        [墨染云](https://i9mr.com)         |                                       |
-| https://music.mcseekeri.top | America  | [MCSeekeri](https://github.com/MCSeekeri) |                                       |
-|  https://api.163.rtast.cn   | America  |  [RTAkland](https://github.com/RTAkland)  |                                       |
-
+<netease-api />
 
 Replace location
 
@@ -43,13 +37,12 @@ api:
     password: ''
 ```
 
-
 ## Deployment
 
 Ensure that the following environment is installed before deployment
 
-* [Git](https://git-scm.com/download)
-* [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/download)
+- [Node.js](https://nodejs.org/)
 
 1. Clone
 
