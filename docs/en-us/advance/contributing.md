@@ -7,10 +7,9 @@ title: Contribution
 Please note that our repository is open source. You can submit your code in the repository.
 However, contribution code also has a certain code of conduct. If you have any questions about this, you are welcome to submit the issue or raise questions in the Discord.
 
-* We accept PR requests that can add and fix problems.
-* We also accept PR requests to add useful new features.
-* We accept PR requests that can optimize the code style.
-
+- We accept PR requests that can add and fix problems.
+- We also accept PR requests to add useful new features.
+- We accept PR requests that can optimize the code style.
 
 ## PR process
 

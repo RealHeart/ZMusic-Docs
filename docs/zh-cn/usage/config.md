@@ -85,5 +85,4 @@ hud:
     enabled: true
     x: 2
     y: 72
-
 ```

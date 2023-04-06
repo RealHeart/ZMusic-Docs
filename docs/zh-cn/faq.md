@@ -2,13 +2,12 @@
 title: 常见问题
 ---
 
-注意：此处的常见问题仅适用于 V3 版本，V2 版本请查看[常见问题 (V2留档)](faq-v2.md)
+注意：此处的常见问题仅适用于 V3 版本，V2 版本请查看[常见问题 (V2 留档)](faq-v2.md)
 
 ## 播放时没有声音
 
 很抱歉，由于各种网站提供的 API 返回的音频格式不一，模组在解码方面可能不支持，所以无法播放，请谅解，此问题我们将会在后续的模组更新中尽可能修复。  
 如果您确认您选择的网站的格式支持解码，那么请参照旧版本的此部分进行检查。
-
 
 ## 无法点击点歌按钮
 
@@ -21,13 +20,14 @@ title: 常见问题
 
 ## 安装 AllMusic 之后，客户端无法启动 (Fabric)
 
-* 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `[Forge-1.16.5]-AllMusic-x.x.x.jar`
-* 如果您下载的是 Fabric 版本模组，请检查您是否安装了 `Fabric-API` 前置模组
-* 本模组与`CardBoard`不兼容
+- 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `[Forge-1.16.5]-AllMusic-x.x.x.jar`
+- 如果您下载的是 Fabric 版本模组，请检查您是否安装了 `Fabric-API` 前置模组
+- 本模组与`CardBoard`不兼容
 
-~~(所以我一个ZMusic使用文档为什么要回答AllMusic的问题，AllMusic插件用户请退群)~~
+~~(所以我一个 ZMusic 使用文档为什么要回答 AllMusic 的问题，AllMusic 插件用户请退群)~~
 
 ## 支持 Velocity 吗？
+
 在 3.0 版本中，我们已经对其进行适配。
 
 ## 插件命令无法被 DeluxeMenu/TrMenu 等菜单插件调用 (BungeeCord/WaterFall)
@@ -35,13 +35,11 @@ title: 常见问题
 这是群组服的通病，因为 ZMusic 的指令是注册在群组服核心内，而插件只能调用 Spigot/Paper 侧的指令。  
 这边想出了一个折中的方法，就是让用户自己输入，虽然这样做对用户来说不太友好，但是自己动手，丰衣足食！
 
-## [zmusic插件一直提示没有zmusic.use权限，确保权限组已经加入了](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1310665)
+## [zmusic 插件一直提示没有 zmusic.use 权限，确保权限组已经加入了](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1310665)
 
-如果您使用的是蹦极端(BungeeCord/Waterfall)，请在跨服端的插件目录内添加LuckPerms-Bungee插件，然后通过`/lpb`指令进行赋予权限。
+如果您使用的是蹦极端(BungeeCord/Waterfall)，请在跨服端的插件目录内添加 LuckPerms-Bungee 插件，然后通过`/lpb`指令进行赋予权限。
 
-
-
-## [[Sponge]服务端ZMusic在线音乐加载不上去](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1048579)
+## [[Sponge]服务端 ZMusic 在线音乐加载不上去](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1048579)
 
 本插件不支持 Sponge，请等待后续更新。
 

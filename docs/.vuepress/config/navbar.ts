@@ -1,4 +1,4 @@
-import { navbar } from "vuepress-theme-hope";
+import { navbar } from 'vuepress-theme-hope'
 
 const navbarZhCn = navbar([
   { text: '首页', link: '/' },
@@ -6,14 +6,14 @@ const navbarZhCn = navbar([
   { text: 'Discord', link: 'https://discord.gg/twQgJNufYn' },
   { text: 'Github', link: 'https://github.com/RealHeart/ZMusic' },
   { text: 'SpigotMC', link: 'https://www.spigotmc.org/resources/83027/' },
-  { text: 'MCBBS', link: 'https://www.mcbbs.net/thread-967007-1-1.html' },
+  { text: 'MCBBS', link: 'https://www.mcbbs.net/thread-967007-1-1.html' }
 ])
 
 const navbarEnUs = navbar([
   { text: 'Home', link: '/en-us/' },
   { text: 'Discord', link: 'https://discord.gg/twQgJNufYn' },
   { text: 'Github', link: 'https://github.com/RealHeart/ZMusic' },
-  { text: 'SpigotMC', link: 'https://www.spigotmc.org/resources/83027/' },
+  { text: 'SpigotMC', link: 'https://www.spigotmc.org/resources/83027/' }
 ])
 
 export { navbarZhCn, navbarEnUs }

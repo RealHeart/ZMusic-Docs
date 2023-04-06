@@ -1,13 +1,12 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { navbarEnUs, navbarZhCn } from "./navbar";
-import { sidebarEnUs, sidebarZhCn } from "./sidebar";
-
+import { hopeTheme } from 'vuepress-theme-hope'
+import { navbarEnUs, navbarZhCn } from './navbar'
+import { sidebarEnUs, sidebarZhCn } from './sidebar'
 
 export default hopeTheme({
-  iconAssets: "iconfont",
-  repo: "RealHeart/ZMusic",
-  docsRepo: "RealHeart/ZMusic-Docs",
-  docsDir: "docs",
+  iconAssets: 'iconfont',
+  repo: 'RealHeart/ZMusic',
+  docsRepo: 'RealHeart/ZMusic-Docs',
+  docsDir: 'docs',
   breadcrumb: false,
   locales: {
     '/': {
@@ -23,4 +22,4 @@ export default hopeTheme({
       sidebar: sidebarEnUs
     }
   }
-});
+})

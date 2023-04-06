@@ -21,5 +21,5 @@ title: Permissions
 | Permission         | Description            | Default |
 | ------------------ | ---------------------- | ------- |
 | zmusic.admin.event | Receive admin events   | None    |
-| zmusic.user.*      | All player permissions | None    |
-| zmusic.admin.*     | All admin privileges   | None    |
+| zmusic.user.\*     | All player permissions | None    |
+| zmusic.admin.\*    | All admin privileges   | None    |
