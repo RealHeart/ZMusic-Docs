@@ -6,7 +6,6 @@
         <th>位置</th>
         <th>提供者</th>
         <th>版本</th>
-        <th>操作</th>
       </thead>
       <tbody>
         <tr v-for="(api, index) in neteaseApiList">
@@ -20,9 +19,6 @@
 
           <td>
             <img :src="apiVersions[index]" v-if="!loading" />
-          </td>
-          <td>
-            <button>复制</button>
           </td>
         </tr>
       </tbody>
