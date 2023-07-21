@@ -27,13 +27,10 @@ proxy:
 # 网易云: https://github.com/Binaryify/NeteaseCloudMusicApi
 api:
   # 网易云音乐
+  # 账号登录请使用 /zm login netease
   netease:
     # API链接
-    link: 'https://netease.api.zhenxin.xyz'
-    # 账号
-    account: ''
-    # 密码
-    password: ''
+    link: 'https://zm.armoe.cn'
 
 # ZMusic VIP设置
 vip:

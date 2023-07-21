@@ -7,36 +7,40 @@
 ## Introduction
 
 This is a powerful music system that supports the following functions.
-* Full server song
-* Play alone
-* Lyrics display
-* Lyrics translation display
-* Multiple search sources (Netease Cloud/Kuwo/Bilibili)
-* Keyword search
-* Personal playlist
-* Full server playlist
-* Playlist play (NetEase Cloud)
-* Volume adjustment (1.12 and above support)
-* Support BungeeCord
+
+- Full server song
+- Play alone
+- Lyrics display
+- Lyrics translation display
+- Multiple search sources (Netease Cloud/Kuwo/Bilibili)
+- Keyword search
+- Personal playlist
+- Full server playlist
+- Playlist play (NetEase Cloud)
+- Volume adjustment (1.12 and above support)
+- Support BungeeCord
 
 ## Client Mod Description
+
 This plug-in requires the client to install the supporting Mod to play normally
 
-* For 1.8-1.11 clients, please install [AudioBuffer](https://www.mcbbs.net/thread-832205-1-1.html) Mod
-* For 1.12.2-1.19 clients, please install [ZMusic](https://github.com/RealHeart/ZMusic-Mod/releases) Mod
+- For 1.8-1.11 clients, please install [AudioBuffer](https://www.mcbbs.net/thread-832205-1-1.html) Mod
+- For 1.12.2-1.19 clients, please install [ZMusic](https://github.com/RealHeart/ZMusic-Mod/releases) Mod
 
 ## BungeeCord description
-* BungeeCord currently only supports 1.9-1.16 server
-* BungeeCord does not currently support economic systems
-* For subservers to display Papi variables, progress prompts and other functions, the ZMusic-Addon plug-in needs to be installed
+
+- BungeeCord currently only supports 1.9-1.16 server
+- BungeeCord does not currently support economic systems
+- For subservers to display Papi variables, progress prompts and other functions, the ZMusic-Addon plug-in needs to be installed
 
 ## Video
 
 [Click to go to Bilibili to view the demo video](https://www.bilibili.com/video/av92156922)
 
 ## Feedback
-* Go to [Gitee](https://gitee.com/realheart/ZMusic) or [Github](https://github.com/RealHeart/ZMusic) to submit Issues
-* Join the exchange group: [1032722724](https://jq.qq.com/?_wv=1027&k=5oIs7cc) feedback
+
+- Go to [Gitee](https://gitee.com/realheart/ZMusic) or [Github](https://github.com/RealHeart/ZMusic) to submit Issues
+- Join the exchange group: [1032722724](https://jq.qq.com/?_wv=1027&k=5oIs7cc) feedback
 
 # Command
 
@@ -60,6 +64,7 @@ Search for a music by song name and play it directly
 [Search source description](#Search source description)
 
 ### Example
+
 `/zm play netease your cat`
 
 ## Song
@@ -73,6 +78,7 @@ Search for a piece of music by song name, after sending it to the whole server, 
 [Search source description](#Search source description) [Song name ID description](#歌名ID化说明)
 
 ### Example
+
 `/zm music netease your cat`
 
 ## search for
@@ -86,6 +92,7 @@ Search for a music by song name, return a list of ten music
 [Search source description](#Search source description) [Song name ID description](#歌名ID化说明)
 
 ### Example
+
 `/zm search netease your cat`
 
 ## song list
@@ -98,45 +105,52 @@ By importing the playlist and storing it on the server, it is convenient to play
 
 Currently supports the following platforms
 
-* netease/163-Netease Cloud Music
+- netease/163-Netease Cloud Music
 
 If the platform is type, set the playlist play mode.
 Currently supports
-* normal-play in sequence
-* loop-loop playback
-* random-random play
+
+- normal-play in sequence
+- loop-loop playback
+- random-random play
 
 Example:
 `/zm playlist type random`
 
 If the platform is global, it is the global playlist mode.
-* The subcommand is the same as the normal mode
+
+- The subcommand is the same as the normal mode
 
 Example:
 `/zm playlist global netease list`
 
 `Subcommand` corresponds to the subcommand of the platform
 
-* `import` Import playlist via playlist link
-  * Parameters
-    * `Playlist link` corresponds to the playlist link of the platform
-* `list` retrieve the playlist list of the specified platform
-* `play` plays the playlist through the playlist ID (available from list)
-  * Parameters
-    * `Playlist ID` Specify the playlist ID of the platform
+- `import` Import playlist via playlist link
+  - Parameters
+    - `Playlist link` corresponds to the playlist link of the platform
+- `list` retrieve the playlist list of the specified platform
+- `play` plays the playlist through the playlist ID (available from list)
+  - Parameters
+    - `Playlist ID` Specify the playlist ID of the platform
 
 ### Example
+
 Import:
-* `/zm playlist 163 import https://music.163.com/#/playlist?id=363046232`
+
+- `/zm playlist 163 import https://music.163.com/#/playlist?id=363046232`
 
 Play:
-* `/zm playlist netease play 1937967578`
-* `/zm playlist 163 play 363046232`
+
+- `/zm playlist netease play 1937967578`
+- `/zm playlist 163 play 363046232`
 
 ## Administrator
+
 Administrator-related operations, full server mandatory playback, reload configuration, etc.
 
 ### Command
+
 `/zm palyall [search source] [song name]` Mandatory full server play
 `/zm stopAll` Force stop all server playback
 `/zm reload` reload configuration file
@@ -176,32 +190,13 @@ Administrator-related operations, full server mandatory playback, reload configu
     /// Use the open source project NeteaseCloudMusicApi
     /// Self-deployment is recommended, Node.js environment is required
     /// Address: https://github.com/Binaryify/NeteaseCloudMusicApi
-    "netease": "https://netease.api.zhenxin.xyz/",
+    "netease": "https://netease.api.zhenxin.xyz/"
   },
   /// Account Settings
   "account": {
     /// NetEase Cloud Music
+    /// Please use /zm login to login your account.
     "netease": {
-      /// Login Method
-      ///
-      /// email-Email login (fill in the email password in the password field)
-      /// phone-mobile phone number login (fill in the NetEase cloud password in the password field)
-      "loginType": "phone",
-      /// account number
-      ///
-      /// Email login and fill in the email
-      /// Mobile phone number login and fill in the phone number
-      "account": "18888888888",
-      /// Password
-      ///
-      /// Email login and fill in the email password
-      /// Mobile phone number login and fill in NetEase cloud password
-      "password": "a123456",
-      /// Password method
-      ///
-      /// normal = pure password is uploaded to the server for verification by the plugin through md5 encryption
-      /// md5 = pure md5 is read and uploaded to the server for verification by the user through md5 encryption settings in the configuration file plug-in
-      "passwordType": "normal",
       /// Whether to follow the author's NetEase Cloud Music account
       "follow": true
     },
@@ -263,44 +258,45 @@ Administrator-related operations, full server mandatory playback, reload configu
 
 # Variable
 
-`%zmusic_playing_name%` Get the name of the currently playing music  
-`%zmusic_playing_singer%` Get the currently playing music singer  
-`%zmusic_playing_lyric%` Get the lyrics displayed at the current time  
-`%zmusic_time_current%` Get the time of the currently playing music  
-`%zmusic_time_max%` Get the maximum time of the currently playing music  
-`%zmusic_playing_platform%`-Get the currently playing music platform  
+`%zmusic_playing_name%` Get the name of the currently playing music
+`%zmusic_playing_singer%` Get the currently playing music singer
+`%zmusic_playing_lyric%` Get the lyrics displayed at the current time
+`%zmusic_time_current%` Get the time of the currently playing music
+`%zmusic_time_max%` Get the maximum time of the currently playing music
+`%zmusic_playing_platform%`-Get the currently playing music platform
 `%zmusic_playing_source%`-Get the currently playing music source
 
 # Front plugin
 
 ## Use all versions
- 
-[```PlaceholderAPI```](https://www.spigotmc.org/resources/placeholderapi.6245/) [Optional] If you want to use the above variables, please install  
-[```Vault```](https://www.spigotmc.org/resources/vault.34315/) [Optional] If you need to use song deduction, please install
+
+[`PlaceholderAPI`](https://www.spigotmc.org/resources/placeholderapi.6245/) [Optional] If you want to use the above variables, please install
+[`Vault`](https://www.spigotmc.org/resources/vault.34315/) [Optional] If you need to use song deduction, please install
 
 ## 1.5, 1.6 version use
 
-~~[```AudioBuffer```](https://www.mcbbs.net/thread-832205-1-1.html) [Required] It is used to play music, there is a matching Mod client in the sticker, which needs to be installed~~  
+~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [Required] It is used to play music, there is a matching Mod client in the sticker, which needs to be installed~~
 
 ## 1.4 and below version use
 
-~~[```AudioBuffer```](https://www.mcbbs.net/thread-832205-1-1.html) [Required] It is used to play music, there is a matching Mod client in the sticker, which needs to be installed~~  
-~~[```BossBarAPI```](https://www.mcbbs.net/thread-729531-1-1.html) [Optional] If you want to use BossBar to display lyrics, please install~~  
-~~[```ActionBarAPI```](https://www.spigotmc.org/resources/actionbarapi-1-8-1-14-2.1315/) [Optional] If you want to use ActionBar to display lyrics, please install~~  
+~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [Required] It is used to play music, there is a matching Mod client in the sticker, which needs to be installed~~
+~~[`BossBarAPI`](https://www.mcbbs.net/thread-729531-1-1.html) [Optional] If you want to use BossBar to display lyrics, please install~~
+~~[`ActionBarAPI`](https://www.spigotmc.org/resources/actionbarapi-1-8-1-14-2.1315/) [Optional] If you want to use ActionBar to display lyrics, please install~~
 
 # Search source description
+
 `Search Source` is the platform you want to search for music
 Currently supports the following platforms
 
-* netease/163-Netease Cloud Music
-* kuwo-Kuwo Music
-* bilibili-Bilibili music
+- netease/163-Netease Cloud Music
+- kuwo-Kuwo Music
+- bilibili-Bilibili music
 
 # Song name ID description
+
 Replace the song name with `-id:music ID`
 Currently supports Netease Cloud Bilibili Music
 Example: `/zm play bilibili -id:374305`
-
 
 [java]: https://badgen.net/badge/Java/1.8/green
 [kotlin]: https://badgen.net/badge/Kotlin/1.4.20/green

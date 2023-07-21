@@ -15,7 +15,7 @@ features:
     details: 支持 网易云音乐, SoundCloud等
   - title: 易上手
     details: 完善的命令提示, 与使用文档
-footer: '&copy;2023 <a href="https://github.com/RealHeart/ZMusic">ZMusic</a> All Rights Reserved. <a href="https://beian.miit.gov.cn">辽ICP备19016520号-2 </a>'
+footer: '&copy;2023 <a href="https://github.com/RealHeart/ZMusic">ZMusic</a> All Rights Reserved. <a href="https://beian.miit.gov.cn">辽ICP备19016520号-2</a>'
 footerHtml: true
 copyright: false
 ---

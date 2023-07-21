@@ -15,7 +15,7 @@ features:
     details: Support NeteaseCloudMusic, SoundCloud, etc.
   - title: Easy to use
     details: Complete command prompts, and working with documentation
-footer: '&copy;2023 <a href="https://github.com/RealHeart/ZMusic">ZMusic</a> All Rights Reserved. <a href="https://beian.miit.gov.cn">辽ICP备19016520号-2 </a>'
+footer: '&copy;2023 <a href="https://github.com/RealHeart/ZMusic">ZMusic</a> All Rights Reserved. <a href="https://beian.miit.gov.cn">辽ICP备19016520号-2</a>'
 footerHtml: true
 copyright: false
 ---
