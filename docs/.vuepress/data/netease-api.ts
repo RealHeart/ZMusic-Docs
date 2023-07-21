@@ -22,14 +22,6 @@ const neteaseApiList: NeteaseApiData[] = [
       name: 'MCSeekeri',
       link: 'https://github.com/MCSeekeri'
     }
-  },
-  {
-    link: 'https://api.163.rtast.cn',
-    location: '美国',
-    provider: {
-      name: 'RTAkland',
-      link: 'https://github.com/RTAkland'
-    }
   }
 ]
 
