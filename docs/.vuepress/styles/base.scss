@@ -3,7 +3,7 @@ body:before {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.2;
+  opacity: 0.1;
   z-index: -1;
   content: '';
   position: fixed;
@@ -12,16 +12,19 @@ body:before {
 
 table {
   text-align: center !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
 }
 
-table,
-table tr:nth-child(2n) {
+thead,
+tbody,
+tr:nth-child(2n) {
   background: transparent !important;
+  backdrop-filter: blur(16px) !important;
 }
 
 table td {
   word-break: keep-all !important;
-  white-space: nowrap !important;
 }
 
 table th {
