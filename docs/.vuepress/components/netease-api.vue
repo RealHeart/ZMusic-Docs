@@ -37,13 +37,11 @@ const apiVersions = ref<string[]>([])
 const getApiVersion = async (link: string) => {
   try {
     const res = await fetch(`${link}/inner/version`)
-    console.log(res)
     const result = await res.json()
     const data = result.data
     const image = `https://img.shields.io/badge/inner-v${data.version}-blue`
     return image
   } catch (e) {
-    console.log(e)
     const image = `https://img.shields.io/badge/error-${e.message}-red`
     return image
   }

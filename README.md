@@ -16,7 +16,7 @@
 
 ```shell
 git clone https://github.com/RealHeart/ZMusic-Docs
-cd gw-web
+cd ZMusic-Docs
 pnpm install # 安装依赖
 pnpm dev # 启动开发服务器
 ```
@@ -27,7 +27,7 @@ pnpm dev # 启动开发服务器
 
 ```text
 ZMusic Docs
-Copyright (C) 2023 RealHeart
+Copyright (C) 2024 RealHeart
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or

@@ -1,25 +1,20 @@
 import { hopeTheme } from 'vuepress-theme-hope'
-import { navbarEnUs, navbarZhCn } from './navbar'
-import { sidebarEnUs, sidebarZhCn } from './sidebar'
+import { navbarEn, navbarZh } from './navbar'
+import { sidebarEn, sidebarZh } from './sidebar'
 
 export default hopeTheme({
-  iconAssets: 'iconfont',
+  iconAssets: 'fontawesome-with-brands',
   repo: 'RealHeart/ZMusic',
   docsRepo: 'RealHeart/ZMusic-Docs',
   docsDir: 'docs',
-  breadcrumb: false,
   locales: {
     '/': {
-      navbar: navbarZhCn,
-      sidebar: sidebarZhCn
+      navbar: navbarZh,
+      sidebar: sidebarZh
     },
-    '/zh-cn/': {
-      navbar: navbarZhCn,
-      sidebar: sidebarZhCn
-    },
-    '/en-us/': {
-      navbar: navbarEnUs,
-      sidebar: sidebarEnUs
+    '/en/': {
+      navbar: navbarEn,
+      sidebar: sidebarEn
     }
   }
 })
