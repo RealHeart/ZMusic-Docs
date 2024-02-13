@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { getDirname, path } from 'vuepress/utils'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { redirectPlugin } from '@vuepress/plugin-redirect'
 import theme from './config/theme'
 
 const __dirname = getDirname(import.meta.url)
@@ -38,6 +39,11 @@ export default defineUserConfig({
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components')
-    })
+    }),
+    redirectPlugin({
+      config: {
+        '/zh-cn/deploy-api/netease-api.html': '/netease-api.html'
+      },
+    }),
   ],
 })
