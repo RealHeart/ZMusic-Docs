@@ -1,5 +1,6 @@
 ---
-title: 网易云音乐API
+title: 网易云音乐 API
+icon: fa-solid fa-music
 ---
 
 - [项目地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
@@ -8,36 +9,49 @@ title: 网易云音乐API
 ## 公共服务器
 
 ::: warning
-**请谨慎使用公共服务器执行登录操作。**
-
+**请谨慎使用公共服务器执行登录操作。**  
 **因使用公共服务器所导致的盗号等问题，概不负责。**
-
-**推荐您根据[**以下说明**](#部署)自行部署使用。**
 :::
 
 如果遇到自建 API 无法登录的问题，请确保您遵循了下方的部署指南。并且将登陆方式改为邮箱登录。
 
 <netease-api />
 
-替换位置
+::: warning
+如果遇到自建 API 无法登录的问题。  
+请确保您遵循了下方的部署指南，并且将登陆方式改为邮箱登录。
+:::
 
-```yaml {9}
+## 替换位置
+
+### V4
+```toml {4}
 # API设置
-#
-# 使用开源API项目 推荐自行搭建
-# 网易云: https://github.com/Binaryify/NeteaseCloudMusicApi
-api:
-  # 网易云音乐
-  netease:
-    # API链接
-    link: '<API地址>'
-    # 账号
-    account: ''
-    # 密码
-    password: ''
+[api]
+# 网易云音乐
+netease-link = "https://zm.armoe.cn"
 ```
 
+### V2
+
+```json {8}
+/// API设置
+  "api": {
+    /// 网易云音乐API地址
+    ///
+    /// 使用开源项目NeteaseCloudMusicApi
+    /// 推荐自行部署，需Node.js环境
+    /// 地址: https://github.com/Binaryify/NeteaseCloudMusicApi
+    "netease": "https://zm.armoe.cn"
+  },
+```
+
+
 ## 部署
+
+::: warning
+项目 NeteaseCloudMusicApi 已停止维护，因此以下方法将不可用
+:::
 
 部署前确保已安装如下环境
 

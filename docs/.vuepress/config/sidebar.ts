@@ -17,6 +17,11 @@ const sidebarZh = sidebar({
       text: '常见问题',
       link: 'faq.md',
       icon: 'circle-question',
+    },
+    {
+      text: '网易云音乐 API',
+      link: 'netease-api.md',
+      icon: 'fa-solid fa-music',
     }
   ]
 })
