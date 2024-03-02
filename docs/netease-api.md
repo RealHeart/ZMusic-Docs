@@ -50,7 +50,7 @@ netease-link = "https://zm.armoe.cn"
 ## 部署
 
 ::: warning
-项目 NeteaseCloudMusicApi 已停止维护，因此以下方法将不可用
+项目 NeteaseCloudMusicApi 已停止维护，以下为最后一次提交的部署指南.
 :::
 
 部署前确保已安装如下环境
@@ -58,10 +58,12 @@ netease-link = "https://zm.armoe.cn"
 - [Git](https://git-scm.com/download)
 - [Node.js](https://nodejs.org/zh-cn/)
 
-1. 克隆代码
+1. 获取代码
 
 ```shell
-git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
+wget https://github.com/Binaryify/NeteaseCloudMusicApi/archive/185031ddcefad34e294df6933418e44cc70ec31f.zip
+unzip 185031ddcefad34e294df6933418e44cc70ec31f.zip
+mv NeteaseCloudMusicApi-185031ddcefad34e294df6933418e44cc70ec31f NeteaseCloudMusicApi
 ```
 
 2. 安装依赖
