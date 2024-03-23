@@ -22,6 +22,14 @@ const neteaseApiList: NeteaseApiData[] = [
       name: 'MCSeekeri',
       link: 'https://github.com/MCSeekeri'
     }
+  },
+  {
+    link: 'https://zmusic.seabedsmc.asia',
+    location: '韩国首尔',
+    provider: {
+      name: 'NY1200NY',
+      link: 'https://www.seabedsmc.asia'
+    }
   }
 ]
 
