@@ -1,14 +1,5 @@
 # v2 使用文档
 
-![][java]
-![][kotlin]
-![][license]
-![][release]
-![][downloads]
-![][players]
-![][servers]
-![][tested-versions]
-
 欢迎查看 ZMusic 帮助文档，这里有所有您需要的帮助，如果您需要排查无法播放声音等问题，请点[此处](/faq-v2.md)。
 
 ## 简介
@@ -182,81 +173,69 @@
 
 ```json
 {
-  /// 配置文件版本(请勿修改)
-  "version": 9,
-  /// 是否自动下载插件更新
-  "update": false,
-  /// 插件提示信息显示前缀
+  // 配置文件版本(请勿修改)
+  "version": 11,
+  // 是否字段检查更新
+  "check-update": true,
+  // 插件提示信息显示前缀
   "prefix": "&bZMusic &e>>> &r",
-  /// 是否开启调试模式
+  // 是否开启调试模式
   "debug": false,
-  /// API设置
+  // API设置
   "api": {
-    /// 网易云音乐API地址
-    ///
-    /// 使用开源项目NeteaseCloudMusicApi
-    /// 推荐自行部署，需Node.js环境
-    /// 地址: https://github.com/Binaryify/NeteaseCloudMusicApi
-    "netease": "https://netease.api.zhenxin.xyz/"
+    // 网易云音乐API地址
+    //
+    // 使用开源项目NeteaseCloudMusicApi
+    // 推荐自行部署，需Node.js环境
+    // 地址: https://github.com/Binaryify/NeteaseCloudMusicApi
+    "netease": "https://zm.armoe.cn/"
   },
-  /// 账号设置
-  "account": {
-    /// 网易云音乐
-    /// 账号登录请使用 /zm login
-    "netease": {
-      /// 是否关注作者的网易云音乐账号
-      "follow": true
-    },
-    /// 哔哩哔哩
-    "bilibili": {
-      /// 由于哔哩哔哩为m4a音频格式
-      /// 需要服务器用来转换
-      /// 因此哔哩哔哩播放功能收费5元/永久
-      /// 联系作者获取授权
-      ///
-      /// 授权QQ
-      "qq": "1307993674",
-      /// 授权Key
-      "key": "none"
-    }
+  // 是否关注作者的网易云音乐账号
+  "netease-follow": true,
+  // ZMusic VIP 设置
+  "vip": {
+    // 授权账号
+    "account": "1307993674",
+    // 授权密钥
+    "secret": "none"
   },
-  /// 点歌设置
+  // 点歌设置
   "music": {
-    /// 点歌扣除的金币(设置为0则不扣除)
-    /// 拥有zmusic.bypass的玩家无视扣除
+    // 点歌扣除的金币(设置为0则不扣除)
+    // 拥有zmusic.bypass的玩家无视扣除
     "money": 10,
-    /// 点歌的冷却时间(设置为0则无冷却)
-    /// 拥有zmusic.bypass的玩家无视冷却
+    // 点歌的冷却时间(设置为0则无冷却)
+    // 拥有zmusic.bypass的玩家无视冷却
     "cooldown": 5
   },
-  /// 歌词设置
+  // 歌词设置
   "lyric": {
-    /// 是否启用歌词
+    // 是否启用歌词
     "enable": true,
-    /// 是否显示歌词翻译
+    // 是否显示歌词翻译
     "showLyricTr": true,
-    /// 歌词颜色
+    // 歌词颜色
     "color": "&b",
-    /// 以下为显示方式设置，可同时启用
-    /// 是否使用BossBar显示歌词(不支持1.8及以下)
+    // 以下为显示方式设置，可同时启用
+    // 是否使用BossBar显示歌词(不支持1.8及以下)
     "bossBar": true,
-    /// 是否使用ActionBar显示歌词
+    // 是否使用ActionBar显示歌词
     "actionBar": false,
-    /// 是否使用Title显示歌词
+    // 是否使用Title显示歌词
     "subTitle": false,
-    /// 是否使用聊天信息显示歌词
+    // 是否使用聊天信息显示歌词
     "chatMessage": false,
-    /// Hud 设置(仅支持1.12及以上)
+    // Hud 设置(仅支持1.12及以上)
     "hud": {
-      /// 是否启用Hud
+      // 是否启用Hud
       "enable": true,
-      /// 信息的X坐标
+      // 信息的X坐标
       "infoX": 2,
-      /// 信息的Y坐标
+      // 信息的Y坐标
       "infoY": 12,
-      /// 歌词的X坐标
+      // 歌词的X坐标
       "lyricX": 2,
-      /// 歌词的Y坐标
+      // 歌词的Y坐标
       "lyricY": 72
     }
   }
@@ -306,13 +285,3 @@
 将歌名替换为 `-id:音乐ID` 即可
 目前支持 网易云 哔哩哔哩音乐
 示例: `/zm play bilibili -id:374305`
-
-
-[java]: https://img.shields.io/badge/java-1.8-blue
-[kotlin]: https://img.shields.io/badge/kotlin-1.5.30-blue
-[license]: https://img.shields.io/github/license/RealHeart/ZMusic?color=blue
-[players]: https://img.shields.io/bstats/players/7291
-[servers]: https://img.shields.io/bstats/servers/7291
-[tested-versions]: https://img.shields.io/spiget/tested-versions/83027
-[release]: https://img.shields.io/github/v/release/RealHeart/ZMusic
-[downloads]: https://img.shields.io/github/downloads/RealHeart/ZMusic/total?color=blue
