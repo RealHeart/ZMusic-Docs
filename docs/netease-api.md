@@ -3,13 +3,12 @@ title: 网易云音乐 API
 icon: fa-solid fa-music
 ---
 
-- [项目地址](https://github.com/Binaryify/NeteaseCloudMusicApi)
-- [使用文档](https://neteasecloudmusicapi.vercel.app/#/?id=%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3)
+- [项目地址](https://gitlab.com/Binaryify/neteasecloudmusicapi)
 
 ## 公共服务器
 
 ::: warning
-**请谨慎使用公共服务器执行登录操作。**  
+**请谨慎使用公共服务器执行登录操作。**
 **因使用公共服务器所导致的盗号等问题，概不负责。**
 :::
 
@@ -18,7 +17,7 @@ icon: fa-solid fa-music
 <netease-api />
 
 ::: warning
-如果遇到自建 API 无法登录的问题。  
+如果遇到自建 API 无法登录的问题。
 请确保您遵循了下方的部署指南，并且将登陆方式改为邮箱登录。
 :::
 
@@ -49,10 +48,6 @@ netease-link = "https://zm.armoe.cn"
 
 ## 部署
 
-::: warning
-项目 NeteaseCloudMusicApi 已停止维护，以下为最后一次提交的部署指南.
-:::
-
 部署前确保已安装如下环境
 
 - [Git](https://git-scm.com/download)
@@ -61,9 +56,8 @@ netease-link = "https://zm.armoe.cn"
 1. 获取代码
 
 ```shell
-wget https://github.com/Binaryify/NeteaseCloudMusicApi/archive/185031ddcefad34e294df6933418e44cc70ec31f.zip
-unzip 185031ddcefad34e294df6933418e44cc70ec31f.zip
-mv NeteaseCloudMusicApi-185031ddcefad34e294df6933418e44cc70ec31f NeteaseCloudMusicApi
+git clone https://gitlab.com/Binaryify/neteasecloudmusicapi.git
+cd neteasecloudmusicapi
 ```
 
 2. 安装依赖

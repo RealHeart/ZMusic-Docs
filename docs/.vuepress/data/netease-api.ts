@@ -16,19 +16,11 @@ const neteaseApiList: NeteaseApiData[] = [
     }
   },
   {
-    link: 'https://music.mcseekeri.top',
+    link: 'https://music.mcseekeri.com',
     location: '美国',
     provider: {
       name: 'MCSeekeri',
       link: 'https://github.com/MCSeekeri'
-    }
-  },
-  {
-    link: 'https://zmusic.seabedsmc.asia',
-    location: '韩国首尔',
-    provider: {
-      name: 'NY1200NY',
-      link: 'https://www.seabedsmc.asia'
     }
   }
 ]
