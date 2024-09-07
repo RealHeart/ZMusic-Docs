@@ -12,8 +12,6 @@ icon: fa-solid fa-music
 **因使用公共服务器所导致的盗号等问题，概不负责。**
 :::
 
-如果遇到自建 API 无法登录的问题，请确保您遵循了下方的部署指南。并且将登陆方式改为邮箱登录。
-
 <netease-api />
 
 ::: warning
@@ -24,6 +22,7 @@ icon: fa-solid fa-music
 ## 替换位置
 
 ### V4
+
 ```toml {4}
 # API设置
 [api]
@@ -44,7 +43,6 @@ netease-link = "https://zm.armoe.cn"
     "netease": "https://zm.armoe.cn"
   },
 ```
-
 
 ## 部署
 
