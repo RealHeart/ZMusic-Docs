@@ -45,12 +45,12 @@
 
 ## 主命令
 
-`/zm` 主命令
-`/zm help` 查看帮助
-`/zm play` 播放音乐
-`/zm music` 全服点歌
-`/zm search` 搜索音乐
-`/zm playlist` 歌单系统
+- `/zm` 主命令
+- `/zm help` 查看帮助
+- `/zm play` 播放音乐
+- `/zm music` 全服点歌
+- `/zm search` 搜索音乐
+- `/zm playlist` 歌单系统
 
 ## 播放
 
@@ -244,30 +244,30 @@
 
 # 变量
 
-`%zmusic_playing_name%` 获取当前播放的音乐歌名
-`%zmusic_playing_singer%` 获取当前播放的音乐歌手
-`%zmusic_playing_lyric%` 获取当前时间显示的歌词
-`%zmusic_time_current%` 获取当前播放的音乐的时间
-`%zmusic_time_max%` 获取当前播放的音乐的最大时间
-`%zmusic_playing_platform%` - 获取当前播放的音乐平台
-`%zmusic_playing_source%` - 获取当前播放的音乐来源
+- `%zmusic_playing_name%` 获取当前播放的音乐歌名
+- `%zmusic_playing_singer%` 获取当前播放的音乐歌手
+- `%zmusic_playing_lyric%` 获取当前时间显示的歌词
+- `%zmusic_time_current%` 获取当前播放的音乐的时间
+- `%zmusic_time_max%` 获取当前播放的音乐的最大时间
+- `%zmusic_playing_platform%` - 获取当前播放的音乐平台
+- `%zmusic_playing_source%` - 获取当前播放的音乐来源
 
 # 前置插件
 
 ## 全版本使用
 
-[`PlaceholderAPI`](https://www.spigotmc.org/resources/placeholderapi.6245/) [可选] 如需使用上方变量 请安装
-[`Vault`](https://www.spigotmc.org/resources/vault.34315/) [可选] 如果需要使用点歌扣费 请安装
+- [`PlaceholderAPI`](https://www.spigotmc.org/resources/placeholderapi.6245/) [可选] 如需使用上方变量 请安装
+- [`Vault`](https://www.spigotmc.org/resources/vault.34315/) [可选] 如果需要使用点歌扣费 请安装
 
 ## 1.5,1.6 版本使用
 
-~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [必须] 用于播放音乐，贴内有配套 Mod 客户端需安装~~
+- ~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [必须] 用于播放音乐，贴内有配套 Mod 客户端需安装~~
 
 ## 1.4 及以下版本使用
 
-~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [必须] 用于播放音乐，贴内有配套 Mod 客户端需安装~~
-~~[`BossBarAPI`](https://www.mcbbs.net/thread-729531-1-1.html) [可选] 如需使用 BossBar 显示歌词 请安装~~
-~~[`ActionBarAPI`](https://www.spigotmc.org/resources/actionbarapi-1-8-1-14-2.1315/) [可选] 如需使用 ActionBar 显示歌词 请安装~~
+- ~~[`AudioBuffer`](https://www.mcbbs.net/thread-832205-1-1.html) [必须] 用于播放音乐，贴内有配套 Mod 客户端需安装~~
+- ~~[`BossBarAPI`](https://www.mcbbs.net/thread-729531-1-1.html) [可选] 如需使用 BossBar 显示歌词 请安装~~
+- ~~[`ActionBarAPI`](https://www.spigotmc.org/resources/actionbarapi-1-8-1-14-2.1315/) [可选] 如需使用 ActionBar 显示歌词 请安装~~
 
 # 搜索源说明
 
@@ -282,6 +282,6 @@
 
 # 歌名 ID 化说明
 
-将歌名替换为 `-id:音乐ID` 即可
-目前支持 网易云 哔哩哔哩音乐
-示例: `/zm play bilibili -id:374305`
+- 将歌名替换为 `-id:音乐ID` 即可
+- 目前支持 网易云 哔哩哔哩音乐
+- 示例: `/zm play bilibili -id:374305`
