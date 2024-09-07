@@ -35,7 +35,7 @@ title: 常见问题 (V2)
 
 ## 插件无法载入，提示“请卸载 AllMusic/AudioBuffer 插件”
 
-请在服务器插件文件夹删除 AllMusic/AudioBuffer 插件即可。
+请在服务器插件文件夹删除 AllMusic/AudioBuffer 插件即可。<br>
 在新版本的 ZMusic 中，我们弃用了 BossBarAPI, ActionBarAPI 依赖插件与 AudioBuffer 前置插件，为了防止服务器模组通讯频道冲突，我们不得不采取本措施。
 
 ## 播放音乐成功后，客户端提示耗时时间很长（但是实际却很短）。
@@ -44,8 +44,8 @@ title: 常见问题 (V2)
 
 ## 登录网易云音乐时，出现`java.net.UnknownHostException` 异常
 
-您的配置文件在配置外置 API 的时候域名配置错误，请检查域名是否有效。
-如果域名有效的话，请检查您服务器的 DNS 是否正常或者刷新 DNS 缓存。
+您的配置文件在配置外置 API 的时候域名配置错误，请检查域名是否有效。<br>
+如果域名有效的话，请检查您服务器的 DNS 是否正常或者刷新 DNS 缓存。<br>
 面板服用户一般不会发生此种问题。
 
 ## 载入插件时，出现`java.lang.NoClassDefFoundError com/google/gson/xxx` 错误
@@ -58,8 +58,8 @@ title: 常见问题 (V2)
 
 ## 安装 AllMusic 之后，客户端无法启动 (Fabric)
 
-- 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `[Forge-1.16.5]-AllMusic-x.x.x.jar`
-- 如果您下载的是 Fabric 版本模组，请检查您是否安装了 `Fabric-API` 前置模组
+- 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `[Forge-1.16.5]-AllMusic-x.x.x.jar`<br>
+- 如果您下载的是 Fabric 版本模组，请检查您是否安装了 `Fabric-API` 前置模组<br>
 - 本模组与`CardBoard`不兼容
 
 ~~(所以我一个 ZMusic 使用文档为什么要回答 AllMusic 的问题，AllMusic 插件用户请退群)~~
@@ -88,16 +88,16 @@ title: 常见问题 (V2)
 ## 插件卡服吗？
 
 <font size="25">不卡服！</font>
-如果出现卡服问题，一般是服务器内其他插件导致的卡服，并且某位用户点歌的时候正好碰到了卡服的时刻。（不服？不服就贴出 timings 报告！）
-碎碎念：听说点大悲咒会崩服（bushi
-![](/images/dabeizhou_1.png)
-![](/images/dabeizhou_2.png)
-如果您在点歌的时候确信发生了上述崩服的情况，请让腐竹将崩服之前爆出的红色 Stacktrace 发给我们，我们会尽快解决。
+如果出现卡服问题，一般是服务器内其他插件导致的卡服，并且某位用户点歌的时候正好碰到了卡服的时刻。（不服？不服就贴出 timings 报告！）<br>
+碎碎念：听说点大悲咒会崩服（bushi<br>
+![](/images/dabeizhou_1.png)<br>
+![](/images/dabeizhou_2.png)<br>
+如果您在点歌的时候确信发生了上述崩服的情况，请让腐竹将崩服之前爆出的红色 Stacktrace 发给我们，我们会尽快解决。<br>
 为了您的人身安全，我们建议有群组服的将 ZMusic 丢进群组服插件文件夹内。
 
 ## 插件命令无法被 DeluxeMenu/TrMenu 等菜单插件调用 (BungeeCord/WaterFall)
 
-这是群组服的通病，因为 ZMusic 的指令是注册在群组服核心内，而插件只能调用 Spigot/Paper 侧的指令。
+这是群组服的通病，因为 ZMusic 的指令是注册在群组服核心内，而插件只能调用 Spigot/Paper 侧的指令。<br>
 这边想出了一个折中的方法，就是让用户自己输入，虽然这样做对用户来说不太友好，但是自己动手，丰衣足食！
 
 ## [zmusic 插件一直提示没有 zmusic.use 权限，确保权限组已经加入了](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1310665)
@@ -112,11 +112,11 @@ title: 常见问题 (V2)
 
 ## 我找不到以上描述的任何错误
 
-您可以加入我们的交流群，如果有报错信息的话，请上传后台报错信息至[mclo.gs](https://mclo.gs)
-然后通过链接的形式反馈给我们。
+您可以加入我们的交流群，如果有报错信息的话，请上传后台报错信息至[mclo.gs](https://mclo.gs)<br>
+然后通过链接的形式反馈给我们。<br>
 帮助手册仍在进一步完善中！
 
 ## ~~彩蛋环节：死亡不掉落用什么插件？~~
 
-~~![](/images/keepInventory.png)~~
+~~![](/images/keepInventory.png)~~<br>
 ~~你需要安装下北泽式死亡不掉落插件，首先排除可以使用`/gamerule`改死亡不掉落，这怎么可能是原版的指令呢，对吧！再说了，百度是什么咱也完全不知道！~~
