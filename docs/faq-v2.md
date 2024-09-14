@@ -16,10 +16,10 @@ title: 常见问题 (V2)
 
 如果您使用的是 **Spigot, Paper, Yatopia, Sugarcane 等原版插件服核心**，那么请检查您是否满足以下条件：
 
-- 您的客户端已经安装了 AllMusic(1.7.10, 1.12 或以上版本) 或者 AudioBuffer(1.12 及以下版本)
+- 您的客户端已经安装了 ZMusic Mod(1.7.10, 1.12 或以上版本) 或者 AudioBuffer Mod(1.12 及以下版本)
 - 您的服务端已正常安装了 ZMusic 插件
-- 您在服务器插件文件夹安装的是 ZMusic 系列插件而不是 AllMusic 模组(模组需要在客户端进行安装)
-- 您的客户端是 Fabric 或者 Forge 而**不是**纯净版，并且已经安装了 AudioBuffer **或者** AllMusic 模组
+- 您在服务器插件文件夹安装的是 ZMusic 系列插件而不是 ZMusic 模组(模组需要在客户端进行安装)
+- 您的客户端是 Fabric 或者 Forge 而**不是**纯净版，并且已经安装了 AudioBuffer **或者** ZMusic 模组
 - 您的网络环境良好
 - 您点歌时使用的平台是网易云音乐！！！
 
@@ -56,13 +56,11 @@ title: 常见问题 (V2)
 
 从 2.5 开始，旧版的进度调用方案已被停用，请更新到最新版本。
 
-## 安装 AllMusic 之后，客户端无法启动 (Fabric)
+## 安装 ZMusic 之后，客户端无法启动 (Fabric)
 
-- 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `[Forge-1.16.5]-AllMusic-x.x.x.jar`<br>
+- 请检查您安装的模组版本是否对应，如您的客户端使用的是 Fabric 模组加载器，但是您下载的是 `zmusic-forge-X.X.X-X.X.X.jar`<br>
 - 如果您下载的是 Fabric 版本模组，请检查您是否安装了 `Fabric-API` 前置模组<br>
 - 本模组与`CardBoard`不兼容
-
-~~(所以我一个 ZMusic 使用文档为什么要回答 AllMusic 的问题，AllMusic 插件用户请退群)~~
 
 ## 插件加载后出现报错：“错误：请等待插件加载完毕”
 
