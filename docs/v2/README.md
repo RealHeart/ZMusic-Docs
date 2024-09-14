@@ -51,6 +51,8 @@
 - `/zm music` 全服点歌
 - `/zm search` 搜索音乐
 - `/zm playlist` 歌单系统
+- `/zm stop` 停止播放
+- `/zm login` 登录网易云音乐
 
 ## 播放
 
