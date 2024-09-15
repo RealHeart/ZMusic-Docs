@@ -24,7 +24,7 @@ const neteaseApiList: NeteaseApiData[] = [
     }
   },
   {
-    link: 'https://zmusic.dgcsj.top',
+    link: 'https://zm.dgcsj.top',
     location: '杭州',
     provider: {
       name: '迪哥闯世界',
