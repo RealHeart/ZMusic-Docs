@@ -22,6 +22,14 @@ const neteaseApiList: NeteaseApiData[] = [
       name: 'MCSeekeri',
       link: 'https://github.com/MCSeekeri'
     }
+  },
+  {
+    link: 'https://zm.dgcsj.top',
+    location: '杭州',
+    provider: {
+      name: '迪哥闯世界',
+      link: 'https://www.dgcsj.top'
+    }
   }
 ]
 
